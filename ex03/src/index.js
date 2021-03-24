@@ -1,7 +1,8 @@
 // only change code below this line
 class Person {
     static display() {
-        return "Static method is invoked from Person class";
+        var message = "Static method is invoked from Person class";
+        return message;
     }
     show() {
         console.log(Person.display());
